@@ -1,0 +1,192 @@
+id_cliente;campo;valor_original;valor_tratado;criterio;fonte;revisao_manual
+CLI0001;cnpj;84.959.310/3413-16;84.959.310/3413-16;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0001;telefone;61970855700;+5561970855700;ok_e164;regra;False
+CLI0001;bairro;Sul (Águas Claras);Águas Claras / Sul;informado_sem_confirmacao_de_cep;informado;False
+CLI0002;cnpj;28.327.648/3503-05;28.327.648/3503-05;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0002;telefone;+55 61 95386-2084;+5561953862084;ok_e164;regra;False
+CLI0002;email;contato@comercialsão.com.br;contato@comercialsão.com.br;formato_invalido_ou_nao_ascii_mantido_e_sinalizado;regra;False
+CLI0002;bairro;Sul (Aguas Claras);Águas Claras / Sul;informado_sem_confirmacao_de_cep;informado;False
+CLI0003;cnpj;42.388.496/9653-28;42.388.496/9653-28;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0003;telefone;+55 61 92489-1771;+5561924891771;ok_e164;regra;False
+CLI0003;data_cadastro;28/02/2022;2022-02-28;formato=dd/mm/aaaa;regra;False
+CLI0003;bairro;Taguatinga - DF;Taguatinga;informado_sem_confirmacao_de_cep;informado;False
+CLI0004;cnpj;69.784.801/8451-46;69.784.801/8451-46;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0004;telefone;(61) 98433-1053;+5561984331053;ok_e164;regra;False
+CLI0004;email;contato@empóriovalev.com.br;contato@empóriovalev.com.br;formato_invalido_ou_nao_ascii_mantido_e_sinalizado;regra;False
+CLI0004;data_cadastro;Dec 24, 2023;2023-12-24;formato=mes_abrev_dia_ano;regra;False
+CLI0004;bairro;aguas claras;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0005;cnpj;89.325.288/0957-01;89.325.288/0957-01;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0005;telefone;61951273847;+5561951273847;ok_e164;regra;False
+CLI0005;data_cadastro;08-01-2022;2022-01-08;"formato=dd-mm-aaaa; ambigua_assumido_dd/mm";regra;False
+CLI0005;cep;00000-000;;cep_invalido;regra;False
+CLI0005;bairro;Taguatinga/DF;Taguatinga;informado_sem_confirmacao_de_cep;informado;False
+CLI0006;cnpj;82.278.248/9638-34;82.278.248/9638-34;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0006;telefone;+55 61 97118-8177;+5561971188177;ok_e164;regra;False
+CLI0006;cep;;;cep_ausente;regra;False
+CLI0006;bairro;Águas Claras;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0007;cnpj;83.930.103/1051-83;83.930.103/1051-83;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0007;telefone;61999788677;+5561999788677;ok_e164;regra;False
+CLI0007;cep;;;cep_ausente;regra;False
+CLI0007;bairro;TAGUATINGA;Taguatinga;informado_sem_confirmacao_de_cep;informado;False
+CLI0008;cnpj;31.165.667/0106-51;31.165.667/0106-51;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0008;telefone;(61) 94139-4116;+5561941394116;ok_e164;regra;False
+CLI0008;data_cadastro;Aug 18, 2022;2022-08-18;formato=mes_abrev_dia_ano;regra;False
+CLI0008;bairro;V. Pires;Vicente Pires;informado_sem_confirmacao_de_cep;informado;False
+CLI0009;cnpj;10.801.326/7736-02;10.801.326/7736-02;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0009;telefone;+55 61 91035-7396;+5561910357396;ok_e164;regra;False
+CLI0009;bairro;Aguas claras;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0010;cnpj;34.309.805/0097-88;34.309.805/0097-88;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0010;telefone;(61) 91931-9320;+5561919319320;ok_e164;regra;False
+CLI0010;data_cadastro;03/03/2021;2021-03-03;formato=dd/mm/aaaa;regra;False
+CLI0010;bairro;Águas Claras/DF;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0011;cnpj;93.990.916/9985-43;93.990.916/9985-43;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0011;telefone;61942035886;+5561942035886;ok_e164;regra;False
+CLI0011;bairro;Vicente Pires;Vicente Pires;informado_sem_confirmacao_de_cep;informado;False
+CLI0012;cnpj;79.911.838/4251-35;79.911.838/4251-35;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0012;telefone;61931172421;+5561931172421;ok_e164;regra;False
+CLI0012;bairro;Aguas Claras - DF;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0013;cnpj;24.118.244/9353-48;24.118.244/9353-48;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0013;telefone;+55 61 95114-1832;+5561951141832;ok_e164;regra;False
+CLI0013;cep;;;cep_ausente;regra;False
+CLI0013;bairro;guara - df;Guará;informado_sem_confirmacao_de_cep;informado;False
+CLI0014;cnpj;27868011280598;27.868.011/2805-98;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0014;telefone;(61) 98041-3088;+5561980413088;ok_e164;regra;False
+CLI0014;email;contato@depósitosãor.com.br;contato@depósitosãor.com.br;formato_invalido_ou_nao_ascii_mantido_e_sinalizado;regra;False
+CLI0014;data_cadastro;02-05-2023;2023-05-02;"formato=dd-mm-aaaa; ambigua_assumido_dd/mm";regra;False
+CLI0014;cep;;;cep_ausente;regra;False
+CLI0014;bairro;Taguatinga;Taguatinga;informado_sem_confirmacao_de_cep;informado;False
+CLI0015;cnpj;69.232.260/2563-42;69.232.260/2563-42;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0015;telefone;(61) 3491-1634;+556134911634;ok_e164;regra;False
+CLI0015;bairro;AGUAS CLARAS;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0016;cnpj;36541458685014;36.541.458/6850-14;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0016;telefone;(61) 95349-1626;+5561953491626;ok_e164;regra;False
+CLI0016;bairro;Vicente Pires - DF;Vicente Pires;informado_sem_confirmacao_de_cep;informado;False
+CLI0017;cnpj;93.406.088/3561-59;93.406.088/3561-59;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0017;telefone;61999038359;+5561999038359;ok_e164;regra;False
+CLI0017;data_cadastro;Feb 28, 2023;2023-02-28;formato=mes_abrev_dia_ano;regra;False
+CLI0017;bairro;Vte Pires;Vicente Pires;informado_sem_confirmacao_de_cep;informado;False
+CLI0018;cnpj;82.366.299/4680-44;82.366.299/4680-44;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0018;telefone;(61) 98043-6279;+5561980436279;ok_e164;regra;False
+CLI0018;email;contato@armazémplana.com.br;contato@armazémplana.com.br;formato_invalido_ou_nao_ascii_mantido_e_sinalizado;regra;False
+CLI0018;data_cadastro;15-08-2024;2024-08-15;formato=dd-mm-aaaa;regra;False
+CLI0018;bairro;Vte Pires;Vicente Pires;informado_sem_confirmacao_de_cep;informado;False
+CLI0019;cnpj;48951343320037;48.951.343/3200-37;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0019;telefone;61 3970-2193;+556139702193;ok_e164;regra;False
+CLI0019;cep;;;cep_ausente;regra;False
+CLI0019;bairro;Guará II;Guará / II;informado_sem_confirmacao_de_cep;informado;False
+CLI0020;cnpj;20.163.287/0831-72;20.163.287/0831-72;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0020;telefone;+55 61 99702-6198;+5561997026198;ok_e164;regra;False
+CLI0020;data_cadastro;25/08/2025;2025-08-25;formato=dd/mm/aaaa;regra;False
+CLI0020;bairro;Taguatinga - DF;Taguatinga;informado_sem_confirmacao_de_cep;informado;False
+CLI0021;cnpj;77.434.873/4714-34;77.434.873/4714-34;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0021;telefone;61952910691;+5561952910691;ok_e164;regra;False
+CLI0021;data_cadastro;18/02/2022;2022-02-18;formato=dd/mm/aaaa;regra;False
+CLI0021;bairro;taguatinga sul;Taguatinga / Sul;informado_sem_confirmacao_de_cep;informado;False
+CLI0022;cnpj;66587603669096;66.587.603/6690-96;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0022;telefone;+55 61 91096-6763;+5561910966763;ok_e164;regra;False
+CLI0022;email;contato@comercialágu.com.br;contato@comercialágu.com.br;formato_invalido_ou_nao_ascii_mantido_e_sinalizado;regra;False
+CLI0022;bairro;TAGUATINGA;Taguatinga;informado_sem_confirmacao_de_cep;informado;False
+CLI0023;cnpj;34670656272980;34.670.656/2729-80;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0023;telefone;+55 61 91444-2375;+5561914442375;ok_e164;regra;False
+CLI0023;data_cadastro;jul 21, 2022;2022-07-21;formato=mes_abrev_dia_ano;regra;False
+CLI0023;bairro;Taguatinga - DF;Taguatinga;informado_sem_confirmacao_de_cep;informado;False
+CLI0024;cnpj;37.556.464/1708-05;37.556.464/1708-05;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0024;telefone;(61) 92124-1659;+5561921241659;ok_e164;regra;False
+CLI0024;data_cadastro;25-01-2022;2022-01-25;formato=dd-mm-aaaa;regra;False
+CLI0024;cep;;;cep_ausente;regra;False
+CLI0024;bairro;Sul (Águas Claras);Águas Claras / Sul;informado_sem_confirmacao_de_cep;informado;False
+CLI0025;cnpj;27193745299124;27.193.745/2991-24;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0025;telefone;(61) 3692-1420;+556136921420;ok_e164;regra;False
+CLI0025;email;contato@empóriodopro.com.br;contato@empóriodopro.com.br;formato_invalido_ou_nao_ascii_mantido_e_sinalizado;regra;False
+CLI0025;data_cadastro;10/10/2024;2024-10-10;formato=dd/mm/aaaa;regra;False
+CLI0025;cep;;;cep_ausente;regra;False
+CLI0025;bairro;Taguatinga/DF;Taguatinga;informado_sem_confirmacao_de_cep;informado;False
+CLI0026;cnpj;49190586518506;49.190.586/5185-06;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0026;telefone;+55 61 92729-8102;+5561927298102;ok_e164;regra;False
+CLI0026;cep;;;cep_ausente;regra;False
+CLI0026;bairro;VICENTE PIRES;Vicente Pires;informado_sem_confirmacao_de_cep;informado;False
+CLI0027;cnpj;87.769.453/1473-79;87.769.453/1473-79;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0027;telefone;61 3784-7209;+556137847209;ok_e164;regra;False
+CLI0027;cep;;;cep_ausente;regra;False
+CLI0027;bairro;Guará I;Guará / I;informado_sem_confirmacao_de_cep;informado;False
+CLI0028;cnpj;49.480.831/3678-37;49.480.831/3678-37;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0028;telefone;+55 61 98342-1282;+5561983421282;ok_e164;regra;False
+CLI0028;data_cadastro;03-05-2022;2022-05-03;"formato=dd-mm-aaaa; ambigua_assumido_dd/mm";regra;False
+CLI0028;bairro;Aguas claras;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0029;cnpj;85.685.574/4431-35;85.685.574/4431-35;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0029;telefone;(61) 3860-9779;+556138609779;ok_e164;regra;False
+CLI0029;email;contato@armazémfazen.com.br;contato@armazémfazen.com.br;formato_invalido_ou_nao_ascii_mantido_e_sinalizado;regra;False
+CLI0029;bairro;Águas Claras Sul;Águas Claras / Sul;informado_sem_confirmacao_de_cep;informado;False
+CLI0030;cnpj;34.352.408/2400-84;34.352.408/2400-84;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0030;telefone;(61) 99042-2680;+5561990422680;ok_e164;regra;False
+CLI0030;bairro;Norte (Águas Claras);Águas Claras / Norte;informado_sem_confirmacao_de_cep;informado;False
+CLI0031;cnpj;04.711.671/9022-94;04.711.671/9022-94;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0031;telefone;(61) 3354-2940;+556133542940;ok_e164;regra;False
+CLI0031;data_cadastro;18/07/2025;2025-07-18;formato=dd/mm/aaaa;regra;False
+CLI0031;cep;;;cep_ausente;regra;False
+CLI0031;bairro;Guará I;Guará / I;informado_sem_confirmacao_de_cep;informado;False
+CLI0032;cnpj;74.964.990/9133-41;74.964.990/9133-41;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0032;telefone;(61) 94929-3847;+5561949293847;ok_e164;regra;False
+CLI0032;data_cadastro;Feb 18, 2022;2022-02-18;formato=mes_abrev_dia_ano;regra;False
+CLI0032;bairro;aguas claras;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0033;cnpj;03.447.134/9361-83;03.447.134/9361-83;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0033;telefone;(61) 95352-3330;+5561953523330;ok_e164;regra;False
+CLI0033;data_cadastro;03-01-2022;2022-01-03;"formato=dd-mm-aaaa; ambigua_assumido_dd/mm";regra;False
+CLI0033;bairro;Vicente Pires - DF;Vicente Pires;informado_sem_confirmacao_de_cep;informado;False
+CLI0034;cnpj;17.464.887/7190-65;17.464.887/7190-65;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0034;telefone;61 3356-1423;+556133561423;ok_e164;regra;False
+CLI0034;data_cadastro;Apr 3, 2025;2025-04-03;formato=mes_abrev_dia_ano;regra;False
+CLI0034;cep;;;cep_ausente;regra;False
+CLI0034;bairro;Guará II;Guará / II;informado_sem_confirmacao_de_cep;informado;False
+CLI0035;cnpj;02.787.429/6717-56;02.787.429/6717-56;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0035;telefone;61953091709;+5561953091709;ok_e164;regra;False
+CLI0035;bairro;Águas Claras;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0036;cnpj;07.154.516/8087-60;07.154.516/8087-60;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0036;telefone;(61) 99494-6927;+5561994946927;ok_e164;regra;False
+CLI0036;bairro;taguatinga sul;Taguatinga / Sul;informado_sem_confirmacao_de_cep;informado;False
+CLI0037;cnpj;10.932.480/8613-17;10.932.480/8613-17;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0037;telefone;(61) 3763-3522;+556137633522;ok_e164;regra;False
+CLI0037;data_cadastro;Dec 16, 2023;2023-12-16;formato=mes_abrev_dia_ano;regra;False
+CLI0037;bairro;Aguas claras;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0038;cnpj;78.263.982/1465-84;78.263.982/1465-84;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0038;telefone;(61) 3389-5891;+556133895891;ok_e164;regra;False
+CLI0038;email;contato@empóriochãov.com.br;contato@empóriochãov.com.br;formato_invalido_ou_nao_ascii_mantido_e_sinalizado;regra;False
+CLI0038;data_cadastro;27/10/2025;2025-10-27;formato=dd/mm/aaaa;regra;False
+CLI0038;bairro;Vte Pires;Vicente Pires;informado_sem_confirmacao_de_cep;informado;False
+CLI0039;cnpj;58.867.533/9636-05;58.867.533/9636-05;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0039;telefone;+55 61 97246-7325;+5561972467325;ok_e164;regra;False
+CLI0039;data_cadastro;22-11-2022;2022-11-22;formato=dd-mm-aaaa;regra;False
+CLI0039;cep;00000-000;;cep_invalido;regra;False
+CLI0039;bairro;aguas claras;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0040;cnpj;71.870.262/1745-96;71.870.262/1745-96;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0040;telefone;(61) 3972-6383;+556139726383;ok_e164;regra;False
+CLI0040;cep;00000-000;;cep_invalido;regra;False
+CLI0040;bairro;Águas Claras;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0041;cnpj;13.431.611/7240-05;13.431.611/7240-05;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0041;telefone;(61) 3400-6873;+556134006873;ok_e164;regra;False
+CLI0041;bairro;Norte (Aguas Claras);Águas Claras / Norte;informado_sem_confirmacao_de_cep;informado;False
+CLI0042;cnpj;19693792374740;19.693.792/3747-40;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0042;telefone;+55 61 95712-9955;+5561957129955;ok_e164;regra;False
+CLI0042;data_cadastro;06/02/2024;2024-02-06;"formato=dd/mm/aaaa; ambigua_assumido_dd/mm";regra;False
+CLI0042;bairro;Águas Claras Norte;Águas Claras / Norte;informado_sem_confirmacao_de_cep;informado;False
+CLI0043;cnpj;43.671.369/5944-06;43.671.369/5944-06;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0043;telefone;61911086890;+5561911086890;ok_e164;regra;False
+CLI0043;data_cadastro;nov 19, 2021;2021-11-19;formato=mes_abrev_dia_ano;regra;False
+CLI0043;bairro;Águas Claras Norte;Águas Claras / Norte;informado_sem_confirmacao_de_cep;informado;False
+CLI0044;cnpj;53394210470952;53.394.210/4709-52;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0044;telefone;(61) 3402-6352;+556134026352;ok_e164;regra;False
+CLI0044;email;contato@depósitocerr.com.br;contato@depósitocerr.com.br;formato_invalido_ou_nao_ascii_mantido_e_sinalizado;regra;False
+CLI0044;bairro;Águas Claras/DF;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0045;cnpj;47.451.712/3685-16;47.451.712/3685-16;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0045;telefone;(61) 3370-9791;+556133709791;ok_e164;regra;False
+CLI0045;data_cadastro;04/08/2023;2023-08-04;"formato=dd/mm/aaaa; ambigua_assumido_dd/mm";regra;False
+CLI0045;bairro;Aguas claras;Águas Claras;informado_sem_confirmacao_de_cep;informado;False
+CLI0046;cnpj;37.098.593/1746-12;37.098.593/1746-12;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0046;telefone;(61) 3138-5986;+556131385986;ok_e164;regra;False
+CLI0046;email;contato@armazémboaco.com.br;contato@armazémboaco.com.br;formato_invalido_ou_nao_ascii_mantido_e_sinalizado;regra;False
+CLI0046;cep;;;cep_ausente;regra;False
+CLI0046;bairro;Guará II;Guará / II;informado_sem_confirmacao_de_cep;informado;False
+CLI0047;cnpj;82.675.869/2617-96;82.675.869/2617-96;dv_invalido_mantido_e_sinalizado;regra;False
+CLI0047;telefone;61914391105;+5561914391105;ok_e164;regra;False
+CLI0047;cep;;;cep_ausente;regra;False
+CLI0047;bairro;;;sem_bairro_resolvido;nenhuma;False
