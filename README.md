@@ -10,9 +10,9 @@ python main.py            # ou: python main.py --sem-api --db-url sqlite:///veto
 pytest
 ```
 
-- Documentação técnica: `docs/DOCUMENTACAO_TECNICA.md`
-- Relatório de trade-offs: `docs/RELATORIO_TRADEOFFS.md`
-- Dicionário de bairros (editável): `etl/dicionario_bairros.csv`
+- Documentação técnica: 
+- Relatório de trade-offs: 
+- Dicionário de bairros (editável):
 
 - $env:DATABASE_URL="postgresql+psycopg2://postgres:607337@localhost:5432/vetor"
 python main.py
@@ -21,24 +21,24 @@ python main.py
 
 1. Entrar na pasta e ativar o ambiente
 
-powershell
+
 cd C:\Users\Halli\Downloads\etl_vetor\etl_vetor
 .venv\Scripts\Activate.ps1
 
 2. Rodar o ETL no PostgreSQL (entrega oficial)
 
-powershell
+
 $env:DATABASE_URL="postgresql+psycopg2://postgres:SUA_SENHA@localhost:5432/vetor"
 python main.py
 
 3. Rodar o ETL em SQLite (sem servidor)
 
-powershell
+
 python main.py --db-url sqlite:///vetor.db
 
 4. Rodar offline, sem consultar a API de CEP
 
-powershell
+
 python main.py --sem-api --db-url sqlite:///vetor.db
 
 5. Rodar os testes
@@ -51,18 +51,18 @@ Devem passar 76 testes.
 
 Bairros agrupados:
 
-powershell
-& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -d vetor -c "SELECT bairro, COUNT(*) FROM clientes_tratados GROUP BY bairro ORDER BY 2 DESC;"
+
+ "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -d vetor -c "SELECT bairro, COUNT(*) FROM clientes_tratados GROUP BY bairro ORDER BY 2 DESC;"
 
 Auditoria (primeiras linhas):
 
-powershell
-& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -d vetor -c "SELECT id_cliente, campo, valor_original, valor_tratado, criterio FROM auditoria_tratamento LIMIT 15;"
+
+ "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -d vetor -c "SELECT id_cliente, campo, valor_original, valor_tratado, criterio FROM auditoria_tratamento LIMIT 15;"
 
 Divergências entre CEP e bairro:
 
-powershell
-& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -d vetor -c "SELECT id_cliente, bairro_informado, bairro FROM clientes_tratados WHERE divergencia_cep_bairro;"
+
+"C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -d vetor -c "SELECT id_cliente, bairro_informado, bairro FROM clientes_tratados WHERE divergencia_cep_bairro;"
 
 7. Conferir o resultado no SQLite
 
