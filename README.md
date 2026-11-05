@@ -1,4 +1,4 @@
-# ETL — Distribuidora Vetor (Desafio Técnico 1)
+# ETL — Distribuidora Vetor (Desafio Técnico 1) Desafio PRIMORA
 
 Pipeline em Python que limpa e enriquece a base de clientes (bairro, CEP, CNPJ, telefone, data, e-mail),
 grava em banco SQL e registra uma trilha de auditoria (valor original → valor tratado → critério/fonte).
