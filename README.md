@@ -49,7 +49,7 @@ Defina a URL de conexão, ajustando usuário, senha e porta ao seu ambiente:
 
 # Linux
 export DATABASE_URL=postgresql+psycopg2://postgres:SUA_SENHA@localhost:5432/vetor
-# Windows (PowerShell)
+# Windows 
 $env:DATABASE_URL="postgresql+psycopg2://postgres:SUA_SENHA@localhost:5432/vetor"
 
 Execute:
