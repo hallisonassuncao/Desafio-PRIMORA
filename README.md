@@ -22,6 +22,7 @@ python main.py
  cd C:\Users\Halli\Downloads\etl_vetor\etl_vetor
 
  python -m venv .venv
+ 
 .venv\Scripts\Activate.ps1
 
 1. pip install -r requirements.txt
