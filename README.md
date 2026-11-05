@@ -15,6 +15,7 @@ pytest
 - Dicionário de bairros (editável):
 
 - $env:DATABASE_URL="postgresql+psycopg2://postgres:607337@localhost:5432/vetor"
+
 python main.py
    
 1. Entrar na pasta e ativar o ambiente
