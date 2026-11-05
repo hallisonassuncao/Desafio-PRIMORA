@@ -19,6 +19,7 @@ python main.py
    
 1. Entrar na pasta e ativar o ambiente
  cd C:\Users\Halli\Downloads\etl_vetor\etl_vetor
+
  python -m venv .venv
 .venv\Scripts\Activate.ps1
 
